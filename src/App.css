@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #191414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#loginContainer{
+  width: 100%;
+}
+
+.welcomeInfo {
+  transition: width 0.3s, height 0.3s;
+}
+
+#welcomeMessage:hover {
+  font-size: 70px;
+}
+
+.welcomeInfo:hover {
+  color: #1DB954;
+  transition: all 1s;
+}
+
+#loginButton {
+  border-radius: 2em;
+  width: 20%;
+  height: 50px;
+}
+
+#loginButton:hover {
+  cursor: pointer;
+  background-color: #1DB954;
+  color: white;
+  transition: all 1s;
+}
+
+#header {
+  top: 0;
+  width: 100%;
+  background-color: #191414;
+}
+
+h1 {
+  color: white;
+}
+
+#logoutButton {
+  position: absolute;
+  color: white;
+  top: 7.5%;
+  right: 27.5%;
+  width: 8%;
+  height: 40px;
+  border-radius: 2em;
+  border: 2px solid white;
+  background-color: #1DB954;
+}
+
+#logoutButton:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: all 0.8s
+}
+
+#buttonContainer {
+  width: 100%;
+  height: 100px;
+
+}
+
+.moodButton {
+  width: 10%;
+  height: 60%;
+  border-radius: 2em;
+  border: 2px white solid;
+  text-decoration: none;
+  margin: 10px 10px 0 10px;
+  transition: width 0.3s, height 0.3s;
+  font-size: 15px;
+}
+
+.moodButton:hover {
+  width: 12.5%;
+  height: 65%;
+  cursor: pointer;
+}
+
+#happyButton {
+  background-color: #EEEE9B;
+}
+
+#sadButton {
+  background-color: grey;
+  color: white;
+}
+
+#danceButton {
+  background-color: #EBCEDA;
+}
+
+#chillButton {
+  background-color: #93CAED;
+}
+
+#songDisplayContainer {
+  border: 1px solid white;
+  border-radius: 2em;
+  height: 90px;
+  width: 50%;
+  margin: 10px 10% 10px 10%;
+  background-color: #1DB954;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s;
+}
+
+#songDisplayContainer:hover {
+  width: 70%
+}
+
+#songDisplay{
+  width: 100%;
+  
+}
+
+#albumArt {
+  float: left;
+  height: 70%;
+  margin: 0 10px 0 10%;
+  border: 1px solid white;
+}
+
+#songName{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+#songNameHref {
+  text-decoration: none;
+}
