@@ -9,8 +9,9 @@ MOODY APPLICATION
 
 
     KNOWN ERRORS:
-        1. Must let it load fully before selecting mood
-        2. Errors appearing after selecting mood (could possibly be due to developer mode)
+        1. Can only use 50 random songs from users playlist data due to API request contraints
+        2. Must let it load fully before selecting mood
+        3. Errors appearing after selecting mood (could possibly be due to developer mode)
 */
 
 
